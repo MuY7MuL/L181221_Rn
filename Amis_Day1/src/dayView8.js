@@ -260,7 +260,6 @@ export default class extends Component{
     static navigationOptions = {
         title: '拖动Cell',
         header: {
-            //style:{backgroundColor: 'black',},
         }
     };
     render(){
