@@ -230,7 +230,7 @@ class DragCell extends Component{
         const cells = this.state.cells.map((elem , index)=>{
             let top = Math.floor(index /4)* this._width ; 
             let left = (index % 4) * this._width;
-            // 单个 cell 布局 ，手势绑定
+            // 单个 cell 布局 ，手势绑定，，
             return(
                 <View ref={"cell"+index} 
                       {...this._panResponder.panHandlers} 
